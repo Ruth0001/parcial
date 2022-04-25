@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edades</title>
+</head>
+
+<body>
+    <Script>
+        Edad1 = prompt('Ingrese primer edad turno mañana', '');
+        Edad1 = prompt(Edad1);
+        Edad2 = prompt('Ingrese segunda edad turno mañana', '');
+        Edad2 = prompt(Edad2);
+        Edad3 = prompt('Ingrese tercera edad turno mañana', '');
+        Edad3 = prompt(Edad3);
+        Edad4 = prompt('Ingrese cuarta edad turno mañana', '');
+        Edad4 = prompt(Edad4);
+        Edad5 = prompt('Ingrese quinta edad turno mañana', '');
+        Edad5 = prompt(Edad5);
+        var suma;
+        suma = Edad1 + Edad2 + Edad3 + Edad4 + Edad5;
+        var promedio;
+        promedio = suma / 5;
+        if (promedio >= 20) {
+            document.write('edad mayor turno de la mañana');
+
+        }
+
+        Edad1t = prompt('Ingrese primer edad turno tarde', '');
+        Edad1t = prompt(Edad1);
+        Edad2t = prompt('Ingrese segunda edad turno tarde', '');
+        Edad2t = prompt(Edad2);
+        Edad3t = prompt('Ingrese tercera edad turno tarde', '');
+        Edad3t = prompt(Edad3);
+        Edad4t = prompt('Ingrese cuarta edad turno tarde', '');
+        Edad4t = prompt(Edad4);
+        Edad5t = prompt('Ingrese quinta edad turno tarde', '');
+        Edad5t = prompt(Edad5);
+        var suma;
+        suma = Edad1t + Edad2t + Edad3t + Edad4t + Edad5t;
+        var promedio;
+        promedio = suma / 5;
+        if (promedio >= 18) {
+            document.write('edad mayor turno de la tarde');
+
+        }
+
+        Edad1n = prompt('Ingrese primer edad turno noche', '');
+        Edad1n = prompt(Edad1);
+        Edad2n = prompt('Ingrese segunda edad turno noche', '');
+        Edad2n = prompt(Edad2);
+        Edad3n = prompt('Ingrese tercera edad turno noche', '');
+        Edad3n = prompt(Edad3);
+        Edad4n = prompt('Ingrese cuarta edad turno noche', '');
+        Edad4n = prompt(Edad4);
+        Edad5n = prompt('Ingrese quinta edad turno noche', '');
+        Edad5n = prompt(Edad5);
+        var suma;
+        suma = Edad1n + Edad2n + Edad3n + Edad4n + Edad5n;
+        var promedio;
+        promedio = suma / 5;
+        if (promedio >= 19) {
+            document.write('edad mayor turno de la noche');
+
+        }
+
+        var suma;
+        suma = Edad1 + Edad2 + Edad3 + Edad4 + Edad5 + Edad1t + Edad2t + Edad3t + Edad4t + Edad5t + Edad1n + Edad2n + Edad3n + Edad4n + Edad5n;
+        var promedio;
+        promedio = suma / 15;
+        if (promedio >= 50) {
+            document.write('edad mayor de las tres secciones')
+        }
+    </Script>
+</body>
+
+</html>
